@@ -1,3 +1,4 @@
+%Step:3_extracting points from crowd sourced data and differentiating inside polygon points
 for k = 1:1:length(in_point_x)
     [in, on] = inpolygon(in_point_x(k), in_point_y(k), boundary_x, boundary_y);
     if in == 1 || on == 1

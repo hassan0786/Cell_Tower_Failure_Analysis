@@ -1,3 +1,4 @@
+%Step:2_plotting and boxing the county with optional random cell points
 load('dade_boxed.mat')
 numarray(:,1) = boundary_x';
 numarray(:,2) = boundary_y' ;

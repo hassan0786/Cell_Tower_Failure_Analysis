@@ -1,3 +1,5 @@
+%Step:1_conditioning LAT LON from fusion tables by google
+
 M = csvread('orange_csv.txt');
 plot(M(:,1), M(:,2), '--b', 'MarkerSize',10)
  
